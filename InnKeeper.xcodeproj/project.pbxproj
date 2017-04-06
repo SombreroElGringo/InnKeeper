@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		4A08807D1E84249F009F2E2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A08807C1E84249F009F2E2C /* AppDelegate.swift */; };
-		4A08807F1E84249F009F2E2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A08807E1E84249F009F2E2C /* ViewController.swift */; };
+		4A08807F1E84249F009F2E2C /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A08807E1E84249F009F2E2C /* MessagesController.swift */; };
 		4A0880821E84249F009F2E2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0880801E84249F009F2E2C /* Main.storyboard */; };
 		4A0880851E84249F009F2E2C /* InnKeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A0880831E84249F009F2E2C /* InnKeeper.xcdatamodeld */; };
 		4A0880871E84249F009F2E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0880861E84249F009F2E2C /* Assets.xcassets */; };
 		4A08808A1E84249F009F2E2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0880881E84249F009F2E2C /* LaunchScreen.storyboard */; };
 		4A0880951E84249F009F2E2C /* InnKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0880941E84249F009F2E2C /* InnKeeperTests.swift */; };
 		4A0880A01E84249F009F2E2C /* InnKeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A08809F1E84249F009F2E2C /* InnKeeperUITests.swift */; };
+		4A0880B01E842583009F2E2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A0880AF1E842583009F2E2C /* GoogleService-Info.plist */; };
+		4A08950D1E87F0DB00C1E433 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A08950C1E87F0DB00C1E433 /* ProfileViewController.swift */; };
+		4A1E70941E8AD9F800CC5419 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E70931E8AD9F800CC5419 /* Extensions.swift */; };
+		4A3EA7281E8D16880096DE83 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3EA7271E8D16880096DE83 /* ChatLogController.swift */; };
+		4A3EA72A1E8D3C690096DE83 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3EA7291E8D3C690096DE83 /* Message.swift */; };
+		4A7729571E96B0850016E9B5 /* ChatInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7729561E96B0850016E9B5 /* ChatInputContainerView.swift */; };
+		4A90326C1E8486F90082787F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A90326B1E8486F90082787F /* LoginController.swift */; };
+		4AA6AB701E86CB1B00DD1F84 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6AB6F1E86CB1B00DD1F84 /* NewMessageController.swift */; };
+		4AA6AB731E86D43000DD1F84 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6AB721E86D43000DD1F84 /* User.swift */; };
+		4AB8770B1E8D64850024D08A /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8770A1E8D64850024D08A /* UserCell.swift */; };
+		4AB8770D1E8D9A650024D08A /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8770C1E8D9A650024D08A /* ChatMessageCell.swift */; };
+		E443BFFD1F64E06E7F6F9CBF /* libPods-InnKeeper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C33576B62A0D99828AEFD1B /* libPods-InnKeeper.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CA4BA109CC7A6FE8F056FD4 /* Pods-InnKeeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InnKeeper.release.xcconfig"; path = "Pods/Target Support Files/Pods-InnKeeper/Pods-InnKeeper.release.xcconfig"; sourceTree = "<group>"; };
 		4A0880791E84249F009F2E2C /* InnKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A08807C1E84249F009F2E2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A08807E1E84249F009F2E2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A08807E1E84249F009F2E2C /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
 		4A0880811E84249F009F2E2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A0880841E84249F009F2E2C /* InnKeeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InnKeeper.xcdatamodel; sourceTree = "<group>"; };
 		4A0880861E84249F009F2E2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +62,19 @@
 		4A08809B1E84249F009F2E2C /* InnKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InnKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A08809F1E84249F009F2E2C /* InnKeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnKeeperUITests.swift; sourceTree = "<group>"; };
 		4A0880A11E84249F009F2E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0880AF1E842583009F2E2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4A08950C1E87F0DB00C1E433 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4A1E70931E8AD9F800CC5419 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4A3EA7271E8D16880096DE83 /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		4A3EA7291E8D3C690096DE83 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		4A7729561E96B0850016E9B5 /* ChatInputContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputContainerView.swift; sourceTree = "<group>"; };
+		4A90326B1E8486F90082787F /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		4AA6AB6F1E86CB1B00DD1F84 /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		4AA6AB721E86D43000DD1F84 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4AB8770A1E8D64850024D08A /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		4AB8770C1E8D9A650024D08A /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		6947841621C59F26A080B2E4 /* Pods-InnKeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InnKeeper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InnKeeper/Pods-InnKeeper.debug.xcconfig"; sourceTree = "<group>"; };
+		8C33576B62A0D99828AEFD1B /* libPods-InnKeeper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InnKeeper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E443BFFD1F64E06E7F6F9CBF /* libPods-InnKeeper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +110,8 @@
 				4A0880931E84249F009F2E2C /* InnKeeperTests */,
 				4A08809E1E84249F009F2E2C /* InnKeeperUITests */,
 				4A08807A1E84249F009F2E2C /* Products */,
+				FAA7B30DFC85AE2A09DCD309 /* Pods */,
+				D210C6A082D805207D284C66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +128,12 @@
 		4A08807B1E84249F009F2E2C /* InnKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				4AB877091E8D64590024D08A /* View */,
+				4A1E70921E8AD9C100CC5419 /* Helpers */,
+				4AA6AB711E86D40600DD1F84 /* Model */,
+				4A90326A1E84868F0082787F /* Controller */,
 				4A08807C1E84249F009F2E2C /* AppDelegate.swift */,
-				4A08807E1E84249F009F2E2C /* ViewController.swift */,
+				4A0880AF1E842583009F2E2C /* GoogleService-Info.plist */,
 				4A0880801E84249F009F2E2C /* Main.storyboard */,
 				4A0880861E84249F009F2E2C /* Assets.xcassets */,
 				4A0880881E84249F009F2E2C /* LaunchScreen.storyboard */,
@@ -128,6 +161,62 @@
 			path = InnKeeperUITests;
 			sourceTree = "<group>";
 		};
+		4A1E70921E8AD9C100CC5419 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4A1E70931E8AD9F800CC5419 /* Extensions.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		4A90326A1E84868F0082787F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A90326B1E8486F90082787F /* LoginController.swift */,
+				4A08807E1E84249F009F2E2C /* MessagesController.swift */,
+				4AA6AB6F1E86CB1B00DD1F84 /* NewMessageController.swift */,
+				4A08950C1E87F0DB00C1E433 /* ProfileViewController.swift */,
+				4A3EA7271E8D16880096DE83 /* ChatLogController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4AA6AB711E86D40600DD1F84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4AA6AB721E86D43000DD1F84 /* User.swift */,
+				4A3EA7291E8D3C690096DE83 /* Message.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4AB877091E8D64590024D08A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AB8770A1E8D64850024D08A /* UserCell.swift */,
+				4AB8770C1E8D9A650024D08A /* ChatMessageCell.swift */,
+				4A7729561E96B0850016E9B5 /* ChatInputContainerView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D210C6A082D805207D284C66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C33576B62A0D99828AEFD1B /* libPods-InnKeeper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA7B30DFC85AE2A09DCD309 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6947841621C59F26A080B2E4 /* Pods-InnKeeper.debug.xcconfig */,
+				2CA4BA109CC7A6FE8F056FD4 /* Pods-InnKeeper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A0880A41E84249F009F2E2C /* Build configuration list for PBXNativeTarget "InnKeeper" */;
 			buildPhases = (
+				E6E6DF3F394206BC73BEA9DA /* [CP] Check Pods Manifest.lock */,
 				4A0880751E84249F009F2E2C /* Sources */,
 				4A0880761E84249F009F2E2C /* Frameworks */,
 				4A0880771E84249F009F2E2C /* Resources */,
+				4B8772E16A4F86872F11696C /* [CP] Embed Pods Frameworks */,
+				4A5493D100592467B9394540 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A08808A1E84249F009F2E2C /* LaunchScreen.storyboard in Resources */,
+				4A0880B01E842583009F2E2C /* GoogleService-Info.plist in Resources */,
 				4A0880871E84249F009F2E2C /* Assets.xcassets in Resources */,
 				4A0880821E84249F009F2E2C /* Main.storyboard in Resources */,
 			);
@@ -260,13 +353,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A5493D100592467B9394540 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InnKeeper/Pods-InnKeeper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B8772E16A4F86872F11696C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InnKeeper/Pods-InnKeeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6E6DF3F394206BC73BEA9DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A0880751E84249F009F2E2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A08807F1E84249F009F2E2C /* ViewController.swift in Sources */,
+				4A3EA7281E8D16880096DE83 /* ChatLogController.swift in Sources */,
+				4A08807F1E84249F009F2E2C /* MessagesController.swift in Sources */,
+				4AA6AB701E86CB1B00DD1F84 /* NewMessageController.swift in Sources */,
+				4AA6AB731E86D43000DD1F84 /* User.swift in Sources */,
+				4A1E70941E8AD9F800CC5419 /* Extensions.swift in Sources */,
+				4A90326C1E8486F90082787F /* LoginController.swift in Sources */,
 				4A0880851E84249F009F2E2C /* InnKeeper.xcdatamodeld in Sources */,
+				4A3EA72A1E8D3C690096DE83 /* Message.swift in Sources */,
+				4A08950D1E87F0DB00C1E433 /* ProfileViewController.swift in Sources */,
+				4AB8770D1E8D9A650024D08A /* ChatMessageCell.swift in Sources */,
+				4A7729571E96B0850016E9B5 /* ChatInputContainerView.swift in Sources */,
+				4AB8770B1E8D64850024D08A /* UserCell.swift in Sources */,
 				4A08807D1E84249F009F2E2C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,8 +566,11 @@
 		};
 		4A0880A51E84249F009F2E2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6947841621C59F26A080B2E4 /* Pods-InnKeeper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
 				DEVELOPMENT_TEAM = KQ76LPZY2S;
 				INFOPLIST_FILE = InnKeeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -428,8 +582,10 @@
 		};
 		4A0880A61E84249F009F2E2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA4BA109CC7A6FE8F056FD4 /* Pods-InnKeeper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_ACTIVITY_MODE = "";
 				DEVELOPMENT_TEAM = KQ76LPZY2S;
 				INFOPLIST_FILE = InnKeeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -516,6 +672,7 @@
 				4A0880A61E84249F009F2E2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A0880A71E84249F009F2E2C /* Build configuration list for PBXNativeTarget "InnKeeperTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +681,7 @@
 				4A0880A91E84249F009F2E2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A0880AA1E84249F009F2E2C /* Build configuration list for PBXNativeTarget "InnKeeperUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +690,7 @@
 				4A0880AC1E84249F009F2E2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
