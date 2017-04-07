@@ -173,8 +173,10 @@ class ChatLogController: UICollectionViewController, UITextFieldDelegate, UIColl
     }
     
     func handleSend() {
-        let properties = ["text": inputContainerView.inputTextField.text! as AnyObject]
-        sendMessageWithProperties(properties: properties)
+        if inputContainerView.inputTextField.text! != "" {
+            let properties = ["text": inputContainerView.inputTextField.text! as AnyObject]
+            sendMessageWithProperties(properties: properties)
+        }
     }
     
     func handleUploadTap() {

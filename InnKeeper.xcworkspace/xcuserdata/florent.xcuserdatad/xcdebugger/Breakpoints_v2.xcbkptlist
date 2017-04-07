@@ -458,11 +458,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "InnKeeper/ChatLogController.swift"
-            timestampString = "513195199.929617"
+            timestampString = "513278799.265148"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "213"
-            endingLineNumber = "213"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
             landmarkName = "handleVideoSelectedForUrl(url:)"
             landmarkType = "7">
          </BreakpointContent>
